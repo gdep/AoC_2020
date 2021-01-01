@@ -1,10 +1,8 @@
-# Problem: https://adventofcode.com/2020/day/1
+# Problem: https://adventofcode.com/2020/day/1#part2
 
 from pathlib import Path
 
-
 INPUT = str(Path(__file__).parent.absolute()) + '/input.txt'
-print(INPUT)
 
 with open(INPUT) as f:
     entries = list(map(int, f.readlines()))
