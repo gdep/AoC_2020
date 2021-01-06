@@ -61,11 +61,8 @@ for passport in passports:
             valid = False
 
         if valid:
-            print(hcl)
-
-            print('Valid')
             valid_total += 1
 
 print(valid_total)
 
-# Result: 233
+# Result: 111
